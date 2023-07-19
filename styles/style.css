@@ -286,6 +286,211 @@ margin-top: 0px;
 
 }
 
+/* end we are games section */
+
+/* start card container */
+
+.games-title{
+    color: #0B0223;
+text-align: center;
+
+font-size: 34px;
+
+font-weight: 700;
+margin-top: 87px;
+margin-bottom: 15px;
+
+
+}
+.games-title span{
+    background-image: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+-webkit-text-fill-color: transparent;
+}
+.games-description{
+    color: #534C64;
+text-align: center;
+
+font-size: 13px;
+
+font-weight: 400;
+
+}
+
+.online-games-container{
+    display: flex;
+    justify-content: center;
+    gap: 17px;
+    
+
+   
+    /* border: 2px solid salmon; */
+    margin-top: 34px;
+    object-fit: cover;
+}
+
+.image{
+    width: 243px;
+    /* border: 2px solid salmon; */
+    position: relative;
+    border-radius: 16px;
+    overflow: hidden;
+
+}
+
+ /* .card{
+    width: 243px;
+    border: 2px solid salmon;
+    position: relative;
+    border-radius: 16px;
+    overflow: hidden;  
+} */
+
+
+.online-games-container .image img{
+    width: 243px;
+    height: 280px;
+    margin: 0 auto;
+    display: block;
+}
+.card-description{
+    color: #534C64;
+
+font-size: 14px;
+
+font-weight: 500;
+margin-top: 17px;
+width: 243px;
+
+}
+.watch-now{
+    position: absolute;
+    top: 0;
+    left: 0;
+   
+    width: 100%;
+    height: 100%;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    opacity: 0;
+   
+}
+.watch-now .fa-play{
+    padding-left: 10px;
+    border: none;
+    color: black;
+
+}
+.watch-now:hover{
+    opacity: 1;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%) ;
+    
+   
+
+}
+
+.watch-now-btn{
+    background-color: #FFF;
+    outline: none;
+    color: #0B0223;
+   
+    border-radius: 50%;
+    padding: 0.5em 0.2em;
+
+}
+
+.watch-now p{
+    text-align: center;
+
+font-size: 13px;
+
+font-weight: 600;
+background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+
+}
+
+/* end game video section */
+
+/* start play instant section */
+
+.play-instant-container{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 50px;
+}
+.play-instant-left{
+    /* border: 2px solid tomato; */
+    width: 30%;
+    display: grid;
+    align-items: end;
+    margin-top: 150px;
+}
+
+.play-instant-title{
+    text-align: right;
+
+font-size: 34px;
+font-weight: 700;
+}
+.play-instant-title span{
+    background-image: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    background-clip: text;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+
+}
+.play-instant-description{
+    color: #534C64;
+text-align: right;
+
+font-size: 12px;
+
+font-weight: 400;
+width: 70%;
+
+margin-right: 0;
+position: relative;
+left:30%;
+/* border: 2px solid brown; */
+margin-top:  17px;;
+
+}
+.play-instant-right{
+    position: relative;
+    margin-bottom: 150px;
+    
+}
+.small-image{
+    position: absolute;
+     bottom: -12%;
+     left: -22%;
+     
+         
+}
+.big-image{
+    width: 450px;
+    height: 462px;
+    margin-top:85px ;
+}
+.small-image img{
+    width: 226px;
+    height: 259px;
+    
+
+}
 
 
 
