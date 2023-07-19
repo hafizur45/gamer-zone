@@ -128,7 +128,7 @@ border: none;
 
 .banner-right{
     /* border: 2px solid black; */
-    display: block;
+    display: flex;
 }
 
 .banner-right img{
@@ -204,6 +204,86 @@ border: none;
 }
 .go-btn{
     background: #4EC5F7;
+}
+/* end banner goat section */
+
+/* we are gamer section */
+
+.gamer-community-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border: 2px solid tomato; */
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+
+.gamer-community-left{
+    /* border: 2px solid black; */
+    margin: 39px  40px 39px 140px;
+}
+.gamer-community-left img{
+    width: 500px;
+    height:300px;
+}
+
+.gamer-community-right{
+    /* border: 2px solid  salmon; */
+    margin-right: 120px;
+    width: 30%;
+    height:350px;
+    margin-top: 55px;
+
+}
+.gamer-community-title{
+    text-align: right;
+
+font-size: 34px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+}
+.gamer-community-description{
+    color: #534C64;
+text-align: right;
+
+font-size: 13px;
+
+font-weight: 400;
+margin-bottom: 24px;
+margin-top: 15px;
+te
+
+
+
+}
+.gamer-community-right p{
+    text-align: right;
+}
+.purpose{
+    color: black;
+text-align: right;
+
+font-size: 13px;
+
+font-weight: 400;
+
+margin-top: 24px;
+
+}
+.end-title{
+    text-align: right;
+    color: #534C64;
+
+font-size: 23px;
+
+font-weight: 700;
+margin-top: 0px;
+
 }
 
 

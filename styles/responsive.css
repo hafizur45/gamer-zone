@@ -51,6 +51,37 @@
     height: auto;
    
   }
+
+  .gamer-community-container{
+    flex-direction: column;
+    background:none
+  }
+  .gamer-community-left{
+    /* border: 2px solid saddlebrown; */
+    width: 100%;
+    margin: 0 auto;
+   
+  }
+  .gamer-community-left img{
+    width: 100%;
+  }
+
+  .gamer-community-right{
+    /* border: 2px solid saddlebrown; */
+    width: 100%;
+    margin: 0 auto;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   
+  }
+  .gamer-community-description {
+    text-align: center;
+    width: 75%;
+    margin-right: 20px;
+    /* border: 2px solid black; */
+
+  }
  
     
 }
@@ -107,5 +138,37 @@
      height: auto;
     
    }
+
+   .gamer-community-container{
+    flex-direction: column;
+    background:none
+  }
+  .gamer-community-left{
+    /* border: 2px solid saddlebrown; */
+    width: 100%;
+    margin: 0 auto;
+   
+  }
+  .gamer-community-left img{
+    width: 100%;
+  }
+
+  .gamer-community-right{
+    /* border: 2px solid saddlebrown; */
+    width: 100%;
+    margin: 0 auto;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   
+  }
+  .gamer-community-description {
+    text-align: center;
+    width: 75%;
+    margin-right: 20px;
+    /* border: 2px solid black; */
+
+  }
+ 
   
 }
